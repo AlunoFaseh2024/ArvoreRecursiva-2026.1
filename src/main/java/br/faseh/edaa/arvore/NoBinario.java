@@ -13,7 +13,16 @@ public class NoBinario {
         this.numero = numero;
         this.direita = this.esquerda = null;
     }
+
+    public int getNumero() { return numero; }
+
+    public NoBinario getEsquerda() { return esquerda; }
+    public void setEsquerda(NoBinario esquerda) { this.esquerda = esquerda; }
+
+    public NoBinario getDireita() { return direita; }
+    public void setDireita(NoBinario direita) { this.direita = direita; }
 }
+
 
 
 
